@@ -6,9 +6,11 @@ $(document).ready(function() {
 
    // $("." + this.className).toggle();
 
-  $(".clickable").click(function() {
-    $(".card2").toggle();
-    $(".card").toggle();
+  $(".col-md-2").click(function() {
+    $(this).children().fadeToggle();
+
+    // $(".card2").toggle();
+    // $(".card").toggle();
    
   });
 });
