@@ -6,8 +6,8 @@ $(document).ready(function() {
 
    // $("." + this.className).toggle();
 
-  $(".col-md-2").click(function() {
-    $(this).children().fadeToggle();
+  $(".flashcard").click(function() {
+    $(this).children().toggle();
 
     // $(".card2").toggle();
     // $(".card").toggle();
