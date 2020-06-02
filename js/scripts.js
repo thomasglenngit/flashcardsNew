@@ -4,9 +4,10 @@ $(document).ready(function() {
   //   $("body").addId("#javascriptDefinition");
   // });
 
-  $(".frontside").click(function() {
-    $(".backside").toggle();
-    // $(".frontside").toggle();
-    // $("." + this.className).toggle();
+  $(".clickable").click(function() {
+    // $(".card2").toggle();
+    // $(".card").toggle();
+    $("." + this.className).toggle();
   });
 });
+

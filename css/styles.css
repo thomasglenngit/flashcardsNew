@@ -1,6 +1,10 @@
-.backside {
+.card2 {
   display: none;
 }
+
+/* .frontside {
+  display: none;
+} */
 
 .col-md-2 {
   float: left;
