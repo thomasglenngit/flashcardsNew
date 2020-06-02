@@ -1,0 +1,8 @@
+.backside {
+  display: none;
+}
+
+.col-md-2 {
+  float: left;
+  width: 100%;
+}
