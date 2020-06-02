@@ -4,10 +4,12 @@ $(document).ready(function() {
   //   $("body").addId("#javascriptDefinition");
   // });
 
+   // $("." + this.className).toggle();
+
   $(".clickable").click(function() {
-    // $(".card2").toggle();
-    // $(".card").toggle();
-    $("." + this.className).toggle();
+    $(".card2").toggle();
+    $(".card").toggle();
+   
   });
 });
 
